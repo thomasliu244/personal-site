@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <p>
-          Thomas Liu's Personal Site
-        </p> */}
+        <p>
+          Learn More About Thomas
+        </p>
         <a
           className="App-link"
           href="https://github.com/thomasliu244"
@@ -24,6 +24,14 @@ function App() {
           rel="noopener noreferrer"
         >
           <img className="Social-media" src="images/linkedin.png"></img>
+        </a>
+        <a
+          className="App-link"
+          href="https://steamcommunity.com/id/tomtomknifez/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="Social-media" src="images/steam.png"></img>
         </a>
       </header>
     </div>
