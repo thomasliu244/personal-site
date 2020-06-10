@@ -23,7 +23,7 @@
   }
 }
 
-.App-header {
+.App-body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -37,6 +37,11 @@
 .App-link {
   color: #61dafb;
   padding-bottom: 10px;
+}
+
+.Description{
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 15px;
 }
 
 @keyframes App-logo-spin {

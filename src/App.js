@@ -5,9 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Learn More About Thomas
+      <section className="App-body">
+        <p className="Description">
+          Learn About Thomas Liu
         </p>
         <a
           className="App-link"
@@ -33,7 +33,7 @@ function App() {
         >
           <img className="Social-media" src="images/steam.png"></img>
         </a>
-      </header>
+      </section>
     </div>
   );
 }
