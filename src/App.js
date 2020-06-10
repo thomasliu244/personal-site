@@ -6,16 +6,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        {/* <p>
           Thomas Liu's Personal Site
-        </p>
+        </p> */}
         <a
           className="App-link"
           href="https://github.com/thomasliu244"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Personal Github Repo
+          <img className="Social-media" src="images/GitHub-Mark-Light-64px.png"></img>
         </a>
         <a
           className="App-link"
@@ -23,7 +23,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          LinkedIn Profile
+          <img className="Social-media" src="images/linkedin.png"></img>
         </a>
       </header>
     </div>
