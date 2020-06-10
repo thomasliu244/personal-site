@@ -1,1 +1,2 @@
-This project is a React site made by Thomas Liu
+Thomas Liu's personal site built using React and deployed through Heroku
+https://www.thomas--liu.com
