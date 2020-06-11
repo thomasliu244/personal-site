@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 
-class Title extends React.Component{
+class Footer extends React.Component{
   render(){
     return(
-      <p className="Description">
-      About Thomas Liu
-    </p>
+      <footer class="footer">
+        <div class="container">
+          <span class="text-muted">Created by Thomas Liu</span>
+        </div>
+      </footer>
     );
   }
 }
@@ -41,37 +43,37 @@ function Table(){
         </div>
       </div>
       <div class="row" >
-        <div class="col">
+        <div class="col left">
           <ButtonLink 
             target="https://steamcommunity.com/id/tomtomknifez/"
             imageSource="images/steam.png">
           </ButtonLink>
         </div>
-        <div class="col">
+        <div class="col right">
           <ButtonLink 
             target="https://www.twitch.tv/daknifez/"
             imageSource="images/twitch.png">
           </ButtonLink>
         </div>
-        <div class="col">
+        <div class="col left">
           <ButtonLink 
             target="https://www.linkedin.com/in/thomas-liu-29a74b42/"
             imageSource="images/linkedin.png">
           </ButtonLink>
         </div>
-        <div class="col">
+        <div class="col right">
           <ButtonLink 
             target="https://github.com/thomasliu244"
             imageSource="images/GitHub-Mark-Light-64px.png">
           </ButtonLink>
         </div>
-        <div class="col">
+        <div class="col left">
           <ButtonLink 
             target="https://twitter.com/thomasliu"
             imageSource="images/twitter.png">
           </ButtonLink>
         </div>
-        <div class="col">
+        <div class="col right">
           <ButtonLink 
             target="https://www.quora.com/profile/Thomas-Liu-126"
             imageSource="images/quora.png">
@@ -87,8 +89,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <section className="App-body">
-          <Title />
           <Table />
+          <Footer />
         </section>
       </div>
     );

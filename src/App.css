@@ -29,12 +29,29 @@
   font-size: 20px;
 }
 
+.col.left{
+  padding-left: 25px;
+  padding-right: 0px;
+}
+
+.col.right{
+  padding-left: 0px;
+  padding-right: 25px;
+}
+
 #main-table{
   font-size: 15px;
   vertical-align: middle
 }
 
-@media (min-width: 768px) {
-  .container-width-override{
-      width:500px;
-  }}
+.footer{
+  position:absolute;
+  left:0;
+  bottom:10px;
+  right:0;
+  font-size: 10px;
+}
+
+.container-width-override{
+  max-width:450px;
+}
