@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 class Footer extends React.Component{
@@ -14,6 +14,12 @@ class Footer extends React.Component{
 }
 
 class ButtonLink extends React.Component{
+  state = {
+    onHover: false
+  };
+
+  toggleState = () => this.setState({ onHover: !this.state.onHover });
+
   render(){
     return (
       <div class={this.props.isLeft ? "col left" : "col right"}>  
@@ -23,7 +29,12 @@ class ButtonLink extends React.Component{
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className={"Social-media "} src={this.props.imageSource}></img>
+          <img 
+          onMouseEnter={this.toggleState}
+          onMouseLeave={this.toggleState}
+          className={this.state.onHover ? "icon-big" : "icon-small"}
+          src={this.props.imageSource}>
+          </img>
         </a>
       </div>     
     );
@@ -32,7 +43,7 @@ class ButtonLink extends React.Component{
 
 function Table(){
   return (
-    <div id="main-table"  class="container text-center container-width-override">
+    <div id="main-table"  class="container text-center container-default-override">
       <div class="row">
         <div class="col"> 
           <p>Work</p>

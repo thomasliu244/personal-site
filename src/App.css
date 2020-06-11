@@ -2,9 +2,17 @@
   text-align: center;
 }
 
-.Social-media {
+.icon-small {
   height: 30px;
   width: 30px;
+  align-items: center;
+  margin-top:5px;
+  margin-bottom: 5px;
+} 
+
+.icon-big {
+  height: 40px;
+  width: 40px;
   margin: 0px;
 } 
 
@@ -32,12 +40,13 @@
 .col.left{
   padding-left: 25px;
   padding-right: 0px;
+  margin-bottom: 0px;
 }
 
 .col.right{
   padding-left: 0px;
   padding-right: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 #main-table{
@@ -54,6 +63,7 @@
   font-size: 14px;
 }
 
-.container-width-override{
+.container-default-override{
   max-width:625px;
+  margin-bottom: 25px;
 }
