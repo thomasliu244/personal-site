@@ -38,6 +38,12 @@ function Table(){
         <div class="col"> 
           <p>Social</p>
         </div>
+        <div class="col"> 
+          <p>Gaming</p>
+        </div>
+        <div class="col"> 
+          <p>Outdoors</p>
+        </div>
       </div>
       <div class="row" >
         <div class="col left">
@@ -64,17 +70,7 @@ function Table(){
             imageSource="images/quora.png">
           </ButtonLink>
         </div>
-      </div>
-      <div class="row">
-        <div class="col"> 
-          <p>Gaming</p>
-        </div>
-        <div class="col"> 
-          <p>Outdoors</p>
-        </div>
-      </div>
-      <div class="row">
-      <div class="col left">
+        <div class="col left">
           <ButtonLink 
             target="https://steamcommunity.com/id/tomtomknifez/"
             imageSource="images/steam.png">

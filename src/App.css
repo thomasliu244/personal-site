@@ -43,7 +43,7 @@
 #main-table{
   font-size: 16px;
   vertical-align: middle;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .footer{
@@ -55,5 +55,5 @@
 }
 
 .container-width-override{
-  max-width:400px;
+  max-width:625px;
 }
