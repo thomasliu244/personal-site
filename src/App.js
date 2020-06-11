@@ -33,9 +33,6 @@ function Table(){
     <div id="main-table"  class="container text-center container-width-override">
       <div class="row">
         <div class="col"> 
-          <p>Gaming</p>
-        </div>
-        <div class="col"> 
           <p>Work</p>
         </div>
         <div class="col"> 
@@ -43,18 +40,6 @@ function Table(){
         </div>
       </div>
       <div class="row" >
-        <div class="col left">
-          <ButtonLink 
-            target="https://steamcommunity.com/id/tomtomknifez/"
-            imageSource="images/steam.png">
-          </ButtonLink>
-        </div>
-        <div class="col right">
-          <ButtonLink 
-            target="https://www.twitch.tv/daknifez/"
-            imageSource="images/twitch.png">
-          </ButtonLink>
-        </div>
         <div class="col left">
           <ButtonLink 
             target="https://www.linkedin.com/in/thomas-liu-29a74b42/"
@@ -77,6 +62,40 @@ function Table(){
           <ButtonLink 
             target="https://www.quora.com/profile/Thomas-Liu-126"
             imageSource="images/quora.png">
+          </ButtonLink>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"> 
+          <p>Gaming</p>
+        </div>
+        <div class="col"> 
+          <p>Outdoors</p>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col left">
+          <ButtonLink 
+            target="https://steamcommunity.com/id/tomtomknifez/"
+            imageSource="images/steam.png">
+          </ButtonLink>
+        </div>
+        <div class="col right">
+          <ButtonLink 
+            target="https://www.twitch.tv/daknifez/"
+            imageSource="images/twitch.png">
+          </ButtonLink>
+        </div>
+        <div class="col left">
+          <ButtonLink 
+            target="https://www.alltrails.com/members/thomas-liu-2"
+            imageSource="images/alltrails.png">
+          </ButtonLink>
+        </div>
+        <div class="col right">
+          <ButtonLink 
+            target="https://www.strava.com/athletes/thomas-liu"
+            imageSource="images/strava.png">
           </ButtonLink>
         </div>
       </div>
