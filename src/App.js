@@ -33,9 +33,10 @@ class ButtonLink extends React.Component{
           onMouseEnter={this.toggleState}
           onMouseLeave={this.toggleState}
           className={this.state.onHover ? "icon-big" : "icon-small"}
-          src={this.props.imageSource}>
+          src={this.props.imageSource}>         
           </img>
         </a>
+        <p className="iconLabel">{this.state.onHover ? this.props.label : ""}</p>
       </div>     
     );
   }
@@ -44,8 +45,8 @@ class ButtonLink extends React.Component{
 function Table(){
   return (
     <div id="main-table"  class="container text-center container-default-override">
-      <div class="row">
-        <div class="col"> 
+      <div class="row" id="icon-cats">
+        <div class="col" > 
           <p>Work</p>
         </div>
         <div class="col"> 
@@ -62,42 +63,50 @@ function Table(){
         <ButtonLink
           isLeft={true} 
           target="https://www.linkedin.com/in/thomas-liu-29a74b42/"
-          imageSource="images/linkedin.png">
+          imageSource="images/linkedin.png"
+          label="LinkedIn">
         </ButtonLink>
         <ButtonLink
           isLeft={false}
           target="https://github.com/thomasliu244"
-          imageSource="images/GitHub-Mark-Light-64px.png">
+          imageSource="images/GitHub-Mark-Light-64px.png"
+          label="GitHub">
         </ButtonLink>
         <ButtonLink
           isLeft={true}  
           target="https://twitter.com/thomasliu"
-          imageSource="images/twitter.png">
+          imageSource="images/twitter.png"
+          label="Twitter">
         </ButtonLink>
         <ButtonLink 
           isLeft={false}
           target="https://www.quora.com/profile/Thomas-Liu-126"
-          imageSource="images/quora.png">
+          imageSource="images/quora.png"
+          label="Quora">
         </ButtonLink>
         <ButtonLink 
           isLeft={true} 
           target="https://steamcommunity.com/id/tomtomknifez/"
-          imageSource="images/steam.png">
+          imageSource="images/steam.png"
+          label="Steam">
         </ButtonLink>
         <ButtonLink 
           isLeft={false}
           target="https://www.twitch.tv/daknifez/"
-          imageSource="images/twitch.png">
+          imageSource="images/twitch.png"
+          label="Twitch">
         </ButtonLink>
         <ButtonLink 
           isLeft={true} 
           target="https://www.alltrails.com/members/thomas-liu-2"
-          imageSource="images/alltrails.png">
+          imageSource="images/alltrails.png"
+          label="AllTrails">
         </ButtonLink>
         <ButtonLink 
           isLeft={false}
           target="https://www.strava.com/athletes/thomas-liu"
-          imageSource="images/strava.png">
+          imageSource="images/strava.png"
+          label="Strava">
         </ButtonLink>
       </div>
     </div>
