@@ -22,7 +22,7 @@ class ButtonLink extends React.Component{
 
   render(){
     return (
-      <div class={this.props.isLeft ? "col left" : "col right"}>  
+      <div class={this.props.position}>  
         <a
           className="App-link"
           href={this.props.target}
@@ -44,8 +44,8 @@ class ButtonLink extends React.Component{
 
 function Table(){
   return (
-    <div id="main-table"  class="container text-center container-default-override">
-      <div class="row" id="icon-cats">
+    <div class="container text-center container-default-override main-table">
+      <div class="row icon-cats">
         <div class="col" > 
           <p>Work</p>
         </div>
@@ -61,52 +61,72 @@ function Table(){
       </div>
       <div class="row" >
         <ButtonLink
-          isLeft={true} 
+          position="col left"
           target="https://www.linkedin.com/in/thomas-liu-29a74b42/"
           imageSource="images/linkedin.png"
           label="LinkedIn">
         </ButtonLink>
         <ButtonLink
-          isLeft={false}
+          position="col right"
           target="https://github.com/thomasliu244"
           imageSource="images/GitHub-Mark-Light-64px.png"
           label="GitHub">
         </ButtonLink>
         <ButtonLink
-          isLeft={true}  
+          position="col left" 
           target="https://twitter.com/thomasliu"
           imageSource="images/twitter.png"
           label="Twitter">
         </ButtonLink>
         <ButtonLink 
-          isLeft={false}
+          position="col right"
           target="https://www.quora.com/profile/Thomas-Liu-126"
           imageSource="images/quora.png"
           label="Quora">
         </ButtonLink>
         <ButtonLink 
-          isLeft={true} 
+          position="col left"
           target="https://steamcommunity.com/id/tomtomknifez/"
           imageSource="images/steam.png"
           label="Steam">
         </ButtonLink>
         <ButtonLink 
-          isLeft={false}
+          position="col right"
           target="https://www.twitch.tv/daknifez/"
           imageSource="images/twitch.png"
           label="Twitch">
         </ButtonLink>
         <ButtonLink 
-          isLeft={true} 
+          position="col left"
           target="https://www.alltrails.com/members/thomas-liu-2"
           imageSource="images/alltrails.png"
           label="AllTrails">
         </ButtonLink>
         <ButtonLink 
-          isLeft={false}
+          position="col right"
           target="https://www.strava.com/athletes/thomas-liu"
           imageSource="images/strava.png"
           label="Strava">
+        </ButtonLink>
+      </div>
+    </div>
+  );
+}
+
+function Table2(){
+  return (
+    <div class="main-table container text-center container-default-override">
+      <div class="row icon-cats">
+        <div class="col" > 
+          <p>Game Dev</p>
+        </div>
+      </div>
+      <div class="row" >
+        <ButtonLink 
+          position= "col"
+          target="unitytest/index.html"
+          imageSource="images/unity.png"
+          label="Playing around in Unity">
         </ButtonLink>
       </div>
     </div>
@@ -118,7 +138,10 @@ class App extends React.Component {
     return (
       <div className="App">
         <section className="App-body">
+          <h4 id="pageHeaders">My Stuff Online</h4>
           <Table />
+          <h4 id="pageHeaders">Random Projects</h4>
+          <Table2 />
           <Footer />
         </section>
       </div>

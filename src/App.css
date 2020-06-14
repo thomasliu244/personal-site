@@ -59,14 +59,20 @@
   margin-bottom: 0px;
 }
 
-#main-table{
+.main-table{
   font-size: 16px;
   vertical-align: middle;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
 
-#icon-cats{
+.icon-cats{
   height: 25px;
+}
+
+#pageHeaders{
+  font-size: 15px;
+  padding-bottom: 15px;
+  color: #6c757d!important;
 }
 
 .footer{
