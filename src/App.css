@@ -69,7 +69,11 @@
   height: 25px;
 }
 
-#pageHeaders{
+#firstHeader{
+  margin-top: 130px;
+}
+
+.pageHeaders{
   font-size: 15px;
   padding-bottom: 15px;
   color: #6c757d!important;

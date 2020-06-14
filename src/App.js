@@ -138,9 +138,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <section className="App-body">
-          <h4 id="pageHeaders">My Stuff Online</h4>
+          <h4 id="firstHeader" class="pageHeaders">My Stuff Online</h4>
           <Table />
-          <h4 id="pageHeaders">Random Projects</h4>
+          <h4 class="pageHeaders">Random Projects</h4>
           <Table2 />
           <Footer />
         </section>
