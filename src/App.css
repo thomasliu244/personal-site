@@ -60,17 +60,14 @@
 }
 
 .main-table{
-  font-size: 16px;
+  font-size: 12px;
   vertical-align: middle;
   padding-bottom: 0px;
+  margin-bottom: 40px;
 }
 
 .icon-cats{
   height: 25px;
-}
-
-#firstHeader{
-  margin-top: 130px;
 }
 
 .pageHeaders{
@@ -89,7 +86,39 @@
 
 .container-default-override{
   max-width:625px;
-  margin-bottom: 25px;
+  margin-bottom: 15 px;
+}
+
+#self-portrait{
+  height: 100px;
+  border-radius: 15px;
+  margin-left: 16px;
+}
+
+#page-header {
+  font-size: 16px;
+  margin-top: 5%;
+}
+
+#page-body {
+  font-size: 12px;
+  color: #6c757d!important;
+  text-align: left;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+#aboutme-header {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#aboutme-body {
+  font-size: 12px;
+  color: #6c757d!important;
+  text-align: left;
+  margin-right: 16px;
 }
 
 @media screen and (max-width: 460px) {
@@ -103,4 +132,10 @@
     padding-right: 5px;
     margin-bottom: 0px;
   } 
+
+  #self-portrait{
+    height: 80px;
+    border-radius: 15px;
+    margin-left: 0px;
+  }
 }
