@@ -20,17 +20,14 @@ function SocialMedia(){
   return (
     <div class="container text-center container-default-override main-table">
       <div class="row icon-cats">
-        <div class="col-3" > 
+        <div class="col-4" > 
           <p>Work</p>
         </div>
-        <div class="col-3"> 
+        <div class="col-4"> 
           <p>Gaming</p>
         </div>
-        <div class="col-3"> 
+        <div class="col-4"> 
           <p>Outdoors</p>
-        </div>
-        <div class="col-3"> 
-          <p>Game Dev</p>
         </div>
       </div>
       <div class="row" >
@@ -69,12 +66,6 @@ function SocialMedia(){
           target="https://www.strava.com/athletes/thomas-liu"
           imageSource="images/strava.png"
           label="Strava">
-        </ButtonLink>
-        <ButtonLink 
-          position= "col-3"
-          target="unitytest/index.html"
-          imageSource="images/unity.png"
-          label="Unity Testing">
         </ButtonLink>
       </div>
     </div>
