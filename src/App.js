@@ -45,7 +45,7 @@ function SocialMedia(){
         </ButtonLink>
         <ButtonLink 
           position="col left"
-          target="https://steamcommunity.com/id/tomtomknifez/"
+          target="https://steamcommunity.com/profiles/76561198015801080/"
           imageSource="images/steam.png"
           label="Steam">
         </ButtonLink>

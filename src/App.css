@@ -36,8 +36,8 @@
 } 
 
 .icon-big {
-  height: 40px;
-  width: 40px;
+  height: 37px;
+  width: 37px;
   margin: 0px;
 } 
 
@@ -63,6 +63,7 @@
   font-size: 12px;
   vertical-align: middle;
   padding-bottom: 0px;
+  margin-bottom: 0px;
   margin-bottom: 40px;
 }
 
